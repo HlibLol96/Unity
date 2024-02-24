@@ -34,22 +34,22 @@ public class Move : MonoBehaviour
         
         var horizontal = Input.GetAxis("Horizontal");
         var vertical = Input.GetAxis("Vertical");
-        if (vertical != 0 || horizontal != 0)
+        /*if (vertical != 0 || horizontal != 0)
         {
             _animator.SetBool("walk",true);
         }
         else
         {
             _animator.SetBool("walk",false);
-        }
+        }*/
         Vector3 verticalMove = transform.forward * vertical;
         Vector3 horizontalMove = transform.right * horizontal;
         Vector3 direction = (verticalMove + horizontalMove).normalized;
         //Vector3 move = new Vector3();
-        _rb.velocity = new Vector3(direction.x * speed,0,direction.z * speed);
+        _rb.velocity = new Vector3(direction.x * speed,-10,direction.z * speed);
         if (Input.GetKeyDown(KeyCode.Space) && IsGround)
         {
-            _rb.AddForce(0,100000,0);
+            _rb.AddForce(0,500,0);
             Debug.Log("we jmuoepd");
         }
        

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbda02bf-5a53-4310-b9c9-10558d15cbf0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lesson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lesson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Chareckter/PlayerCapsule.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Chareckter/PlayerCapsule.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Bread.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Bread.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Bread.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Bread.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Cake.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Cake.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Cake.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Cake.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Cheese.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Cheese.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Cheese.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Cheese.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Ham.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Ham.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Ham.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/Ham.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/PotionBig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/PotionBig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/PotionBig.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/PotionBig.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/PotionSmall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/PotionSmall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/PotionSmall.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/PotionSmall.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/WineJug.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/WineJug.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/WineJug.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Enviroments/FOOD/WineJug.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Common/AdvancedMonoBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Common/AdvancedMonoBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Common/Settings/ProjectSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Common/Settings/ProjectSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Common/Signal Bus/CallBackWithPriority.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Common/Signal Bus/CallBackWithPriority.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Common/Signal Bus/SignalBus.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Common/Signal Bus/SignalBus.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Eat.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Eat.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/LookRaycast.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/LookRaycast.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Move.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Move.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Move.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/look.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/look.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/Data/Interfaces/IRecoveryHp.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/Data/Interfaces/IRecoveryHp.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/Data/Interfaces/IRecoveryHunger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/Data/Interfaces/IRecoveryHunger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/Data/Interfaces/IRecoveryThirst.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/Data/Interfaces/IRecoveryThirst.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/Data/PlayerInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/Data/PlayerInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/FoodInfo.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Models/FoodInfo.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Presenters/HpBarPresenter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Presenters/HpBarPresenter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/BaseFood.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/BaseFood.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/BigPotion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/BigPotion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Bread.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Bread.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Cake.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Cake.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Cheese.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Cheese.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Food.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Food.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Ham.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/Ham.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/SmallPotion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/SmallPotion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/WineJug.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Foods/WineJug.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/HpBar.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/HpBar.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Interfaces/IAmTakeable.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Interfaces/IAmTakeable.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Interfaces/ICanBeUsed.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Interfaces/ICanBeUsed.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Interfaces/IHpBar.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/Interfaces/IHpBar.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/SpawnPosition.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/MVP/Views/SpawnPosition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/ScriptableObjects/Generate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/ScriptableObjects/Generate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/ScriptableObjects/RoomGenerate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/ScriptableObjects/RoomGenerate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/ScriptableObjects/Test.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/ScriptableObjects/Test.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/UI/MainMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/UI/MainMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Hlib/lesson/Assets/HellaHotel/Scripts/Common/AdvancedMonoBehaviour.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Move.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2cUPFbk7NOnARCRWwl46mpVFA0s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.15f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\Hlib\lesson -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Hlib\lesson" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbda02bf-5a53-4310-b9c9-10558d15cbf0" name="Changes" comment="" />
+      <created>1708163088800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708163088800</updated>
+      <workItem from="1708163089988" duration="618000" />
+      <workItem from="1708251280643" duration="4105000" />
+      <workItem from="1708759798897" duration="57000" />
+      <workItem from="1708759892681" duration="1824000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
