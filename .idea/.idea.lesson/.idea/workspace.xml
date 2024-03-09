@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbda02bf-5a53-4310-b9c9-10558d15cbf0" name="Changes" comment="" />
+    <list default="true" id="fbda02bf-5a53-4310-b9c9-10558d15cbf0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lesson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lesson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Body_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Body_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Bottom_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Bottom_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Hair_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Hair_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Shoes_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Shoes_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Top_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Remy_Top_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Walking.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Charechters/Walking.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Chareckter/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Prefabs/Chareckter/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Move.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Move.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Hlib/lesson/Assets/HellaHotel/Scripts/Common/AdvancedMonoBehaviour.cs.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HellaHotel/Scripts/Main Game/CHARACKER/Move.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -75,6 +87,24 @@
       <updated>1708163088800</updated>
       <workItem from="1708163089988" duration="618000" />
       <workItem from="1708251280643" duration="1248000" />
+      <workItem from="1708779708854" duration="9000" />
+      <workItem from="1708780456623" duration="37000" />
+      <workItem from="1708780569834" duration="42000" />
+      <workItem from="1708780716111" duration="36000" />
+      <workItem from="1708782664163" duration="7000" />
+      <workItem from="1708847279908" duration="26000" />
+      <workItem from="1708847382615" duration="14000" />
+      <workItem from="1708847636918" duration="101000" />
+      <workItem from="1708848493230" duration="75000" />
+      <workItem from="1708849857489" duration="1036000" />
+      <workItem from="1708850982845" duration="65000" />
+      <workItem from="1708851140908" duration="51000" />
+      <workItem from="1708851557110" duration="29000" />
+      <workItem from="1708860284460" duration="1471000" />
+      <workItem from="1708862307034" duration="1053000" />
+      <workItem from="1709359610882" duration="1674000" />
+      <workItem from="1709470058195" duration="611000" />
+      <workItem from="1709975247600" duration="364000" />
     </task>
     <servers />
   </component>

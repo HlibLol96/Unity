@@ -31,9 +31,6 @@ public class Move : MonoBehaviour
 
     void FixedUpdate()
     {
-        
-        var horizontal = Input.GetAxis("Horizontal");
-        var vertical = Input.GetAxis("Vertical");
         /*if (vertical != 0 || horizontal != 0)
         {
             _animator.SetBool("walk",true);
@@ -42,14 +39,18 @@ public class Move : MonoBehaviour
         {
             _animator.SetBool("walk",false);
         }*/
+        
+        var horizontal = Input.GetAxis("Horizontal");
+        var vertical = Input.GetAxis("Vertical");
+        
         Vector3 verticalMove = transform.forward * vertical;
         Vector3 horizontalMove = transform.right * horizontal;
         Vector3 direction = (verticalMove + horizontalMove).normalized;
         //Vector3 move = new Vector3();
         _rb.velocity = new Vector3(direction.x * speed,-10,direction.z * speed);
-        if (Input.GetKeyDown(KeyCode.Space) && IsGround)
+        if (Input.GetKeyDown(KeyCode.Space) )
         {
-            _rb.AddForce(0,500,0);
+            _rb.AddForce(0,10000,0);
             Debug.Log("we jmuoepd");
         }
        
@@ -69,16 +70,16 @@ public class Move : MonoBehaviour
    
     private void OnCollisionEnter(Collision collision )
     {
+        Debug.Log("Enter");
         if (collision.collider.gameObject.tag == "ground" )
         {
-       
             IsGround = true;
-            
         }
     }
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.collider.gameObject.tag == "ground" )
+        Debug.Log("Exit");
+        if (collision.collider.gameObject.CompareTag("ground") )
         {
             IsGround = false;
         }
