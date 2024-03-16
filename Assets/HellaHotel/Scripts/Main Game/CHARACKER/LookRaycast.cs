@@ -35,13 +35,16 @@ public class LookRaycast : MonoBehaviour
             
             _raycastHit.collider.GetComponent<ICanBeUsed>().Interaction();
         }
+        else if(Input.GetKeyDown(KeyCode.E) && _raycastHit.collider.GetComponent<IInteractive>() != null)
+        {
+            _raycastHit.collider.GetComponent<IInteractive>().Interact();
+        }
 
         if (Input.GetKeyDown(KeyCode.F) && _raycastHit.collider.GetComponent<IAmTakeable>() != null 
                                         && rightHand.childCount ==0)
         {
             _raycastHit.collider.GetComponent<IAmTakeable>().Take(rightHand);
-            
-
         }
+        
     }
 }
