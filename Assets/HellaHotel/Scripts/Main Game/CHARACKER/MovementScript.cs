@@ -63,7 +63,7 @@ public class MovementScript : MonoBehaviour
         verticalInput = Input.GetAxis ("Vertical");
         if ((horizontalInput != 0 || verticalInput != 0 )&& Input.GetKeyDown(KeyCode.LeftShift))
         {
-            _runSpeed = 10;
+            _runSpeed = 40;
         }
         else
         {
@@ -97,5 +97,10 @@ public class MovementScript : MonoBehaviour
         {
             _isGround = true;
         }
+        else if (hit.collider.gameObject.tag != "door")
+        {
+            
+        }
+        
     }
 }
