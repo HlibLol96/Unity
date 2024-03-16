@@ -6,18 +6,23 @@ using Random = System.Random;
 
 public class RoomGenerate : MonoBehaviour
 {
+    public static int Amount { get; set; } = 0;
     [SerializeField]  private Test environments; 
     private List<Transform> spawns = new List<Transform>();
     [SerializeField] private GameObject StartRoom;
 
     void Start()
     {
+        if (Amount >= 3)
+        {
+            return;
+        }
+
+        Amount++;
         Random rnd = new Random();
-        var children = transform.GetChild(0).GetChild(0).GetComponent<SpawnPosition>();
+        var children = transform.GetChild(0).GetComponent<SpawnPosition>();
         spawns.Add(children.transform);
         Debug.Log($"children:{children}");
-        
-      
         
         foreach (var variableSpawn in spawns)
         {
