@@ -14,7 +14,7 @@ public class Open : MonoBehaviour,IInteractive
     private void Start()
     {
         closedPosition = transform.localEulerAngles;
-        openPosition = new Vector3(closedPosition.x, 90, 0);
+        openPosition = new Vector3(closedPosition.x, closedPosition.y +90, closedPosition.z);
     }
 
     

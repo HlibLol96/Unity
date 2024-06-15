@@ -8,6 +8,7 @@ TagManager:
   - cheese
   - potionB
   - ground
+  - POINT
   layers:
   - Default
   - TransparentFX
