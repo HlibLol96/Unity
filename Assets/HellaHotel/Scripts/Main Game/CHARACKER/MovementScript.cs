@@ -1,14 +1,20 @@
-using System;
 using UnityEngine;
 
-
-public class MovementScript : MonoBehaviour
+internal class MovementScript : MonoBehaviour
 {
+    #region Serializable Stuff
+    [Header("GameObjects")]
+    [Space(10)]
     [SerializeField] private Animator animator;
-    [SerializeField]private float speed;
-    [SerializeField]private CharacterController capsule;
-    [SerializeField]private float jumpHeight;
-    [SerializeField]private GameObject cameraSocket;
+    [SerializeField] private CharacterController capsule;
+    [SerializeField] private GameObject cameraSocket;
+    [Header("Values")]
+    [Space(10)]
+    [SerializeField] private float speed;
+    [SerializeField] private float jumpHeight;
+    [SerializeField] private float gravity;
+    #endregion
+    #region Variables
     private float _verticalRotation;
     private float _horizontalRotation;
     private float _sensitivity = 5;
@@ -16,91 +22,71 @@ public class MovementScript : MonoBehaviour
     private float _currentRotationY;
     private float _velocityX = 0;
     private float _velocityY = 0;
+    private float _downVelocity = 0;
     private bool _isGround = true;
-    private int gravity = 4;
-    private float horizontalInput;
-    private float verticalInput;
-    private float _runSpeed = 1;
-
+    private RaycastHit _raycastHit;
+    private float _horizontalInput;
+    private float _verticalInput;
+    #endregion
+    #region Main Code
     private void Update()
     {
         Move();
         Rotate();
         Gravity();
         Animator();
-        Debug.Log(_isGround);
     }
     void Animator()
-    {
-        if ((horizontalInput != 0 || verticalInput != 0 )&& Input.GetKey(KeyCode.LeftShift))
-        {
-            animator.SetBool("Run",true);
-        }
-        else if (verticalInput != 0 || horizontalInput != 0)
-        {
-            animator.SetBool("walk",true);
-        }
-        else
-        {
-            animator.SetBool("walk",false);
-            animator.SetBool("Run",false);
-        }
+    { 
+            if ((_horizontalInput != 0 || _verticalInput != 0) && Input.GetKey(KeyCode.LeftShift))
+            {
+                animator.SetBool("Run", true);
+            }
+            else if (_verticalInput != 0 || _horizontalInput != 0)
+            {
+                animator.SetBool("walk", true);
+            }
+            else
+            {
+                animator.SetBool("walk", false);
+                animator.SetBool("Run", false);
+            }
     }
     void Gravity()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && _isGround)
+        _isGround = Physics.Raycast(transform.position, - transform.up, 2);
+        if (Input.GetKeyDown(KeyCode.Space) && _isGround)
         {
-            capsule.Move(new Vector3(0, jumpHeight * gravity, 0));
+            _downVelocity += jumpHeight * Time.deltaTime;
         }
-        else
+        else if (!_isGround)
         {
-            capsule.Move(new Vector3(0,-0.1f,0));
+            _downVelocity -= gravity * Time.deltaTime;
         }
     }
     private void Move()
     {
-        horizontalInput = Input.GetAxis ("Horizontal");
-        verticalInput = Input.GetAxis ("Vertical");
-        if ((horizontalInput != 0 || verticalInput != 0 )&& Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            _runSpeed = 40;
-        }
-        else
-        {
-            _runSpeed = 1;
-        }
-        Vector3 forwardMove = transform.forward * verticalInput;
-        Vector3 sideMove = transform.right * horizontalInput;
-        Vector3 direction = (forwardMove + sideMove).normalized;
-        Vector3 distance = direction * speed * _runSpeed * Time.deltaTime;
-        capsule.Move (distance);
+        _horizontalInput = Input.GetAxis("Horizontal");
+        _verticalInput = Input.GetAxis("Vertical");
+        Vector3 _upMove = new Vector3(0, _downVelocity, 0);
+        Vector3 _forwardMove = transform.forward * _verticalInput;
+        Vector3 _sideMove = transform.right * _horizontalInput;
+        Vector3 _direction = (_forwardMove + _sideMove).normalized;
+        Vector3 _distance = _direction * speed * Time.deltaTime;
+        capsule.Move(_distance);
+        capsule.Move(_upMove);
     }
     private void Rotate()
     {
-        _verticalRotation += Input.GetAxis("Mouse X") * _sensitivity; 
+        _verticalRotation += Input.GetAxis("Mouse X") * _sensitivity;
         _horizontalRotation += Input.GetAxis("Mouse Y") * _sensitivity;
         _horizontalRotation = Mathf.Clamp(_horizontalRotation, -75, 75);
         _currentRotationX = Mathf.SmoothDamp(_horizontalRotation, _verticalRotation, ref _velocityX, 20);
         _currentRotationY = Mathf.SmoothDamp(_verticalRotation, _horizontalRotation, ref _velocityY, 20);
-        gameObject.transform.rotation = Quaternion.Euler(0,_currentRotationY,0);
-        cameraSocket.transform.rotation = Quaternion.Euler(-_currentRotationX,_currentRotationY,0);
-                   
+        gameObject.transform.rotation = Quaternion.Euler(0, _currentRotationY, 0);
+        cameraSocket.transform.rotation = Quaternion.Euler(-_currentRotationX, _currentRotationY, 0);
+
     }
-    void OnControllerColliderHit (ControllerColliderHit hit)
-    {
-        if (hit.collider.gameObject.tag == "Respawn")
-        {
-            Debug.Log("Enter");
-            _isGround = true;
-        }
-        else if (hit.collider.gameObject.tag != "Respawn")
-        {
-            _isGround = true;
-        }
-        else if (hit.collider.gameObject.tag != "door")
-        {
-            
-        }
-        
-    }
+    #endregion
+
 }
