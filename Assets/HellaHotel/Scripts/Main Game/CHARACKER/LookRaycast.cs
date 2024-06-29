@@ -26,7 +26,6 @@ public class LookRaycast : MonoBehaviour
 
         Physics.Raycast(transform.position, direction, out _raycastHit, distance);
         Debug.DrawRay(transform.position,direction * distance,Color.cyan);
-        Debug.Log(_raycastHit.collider.tag);
         if (Input.GetKeyDown(KeyCode.E) && _raycastHit.collider.GetComponent<ICanBeUsed>() != null)
         {
             _eat.Food(_raycastHit.collider.GetComponent<IRecoveryHp>()?.RecoveryHp,

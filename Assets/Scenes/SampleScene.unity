@@ -924,7 +924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1832308279774540786, guid: 263ec51fc4de39841b6708cc492bab66, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 34.55731
+      value: 38.1
       objectReference: {fileID: 0}
     - target: {fileID: 1832308279774540786, guid: 263ec51fc4de39841b6708cc492bab66, type: 3}
       propertyPath: m_LocalPosition.z
@@ -959,12 +959,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2244794378600888249, guid: 263ec51fc4de39841b6708cc492bab66, type: 3}
+      propertyPath: gravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2244794378600888249, guid: 263ec51fc4de39841b6708cc492bab66, type: 3}
       propertyPath: animator
       value: 
       objectReference: {fileID: 78580217}
+    - target: {fileID: 2244794378600888249, guid: 263ec51fc4de39841b6708cc492bab66, type: 3}
+      propertyPath: jumpHeight
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2832552960494357423, guid: 263ec51fc4de39841b6708cc492bab66, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171923114574418197, guid: 263ec51fc4de39841b6708cc492bab66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991862477451291673, guid: 263ec51fc4de39841b6708cc492bab66, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 263ec51fc4de39841b6708cc492bab66, type: 3}
@@ -1554,7 +1570,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.13
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8947631743821454863, guid: 2582aca583bac0142a7d52c5b08d3954, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2582aca583bac0142a7d52c5b08d3954, type: 3}
 --- !u!1001 &1990574128
 PrefabInstance:
