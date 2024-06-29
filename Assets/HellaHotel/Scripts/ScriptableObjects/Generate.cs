@@ -11,7 +11,7 @@ public class Generate : MonoBehaviour
   
   [SerializeField]  private Test environments; 
   private List<Transform> spawns = new List<Transform>();
-  private void Start()
+  private void Awake()
   {
     Random rnd = new Random();
     for (int i = 0; i < gameObject.transform.childCount; i++)
