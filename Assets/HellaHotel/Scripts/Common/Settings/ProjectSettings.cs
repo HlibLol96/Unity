@@ -28,7 +28,7 @@ public class ProjectSettings : MonoBehaviour
     {
         LoadInfo();
         Cursor.lockState = CursorLockMode.Locked;
-        Application.targetFrameRate = -1;
+        Application.targetFrameRate = 1;
         QualitySettings.vSyncCount = 0;
     }
 

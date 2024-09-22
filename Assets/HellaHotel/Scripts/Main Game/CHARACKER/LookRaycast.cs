@@ -8,6 +8,8 @@ public class LookRaycast : MonoBehaviour
     private RaycastHit _raycastHit;
     [SerializeField] int distance;
     [SerializeField] Transform rightHand;
+    [SerializeField] Transform pcPos;
+    [SerializeField] GameObject player;
 
     private void Start()
     {
@@ -31,7 +33,6 @@ public class LookRaycast : MonoBehaviour
             _eat.Food(_raycastHit.collider.GetComponent<IRecoveryHp>()?.RecoveryHp,
             _raycastHit.collider.GetComponent<IRecoveryHunger>()?.RecoveryHunger,
             _raycastHit.collider.GetComponent<IRecoveryThirst>()?.RecoveryThirst);
-            
             _raycastHit.collider.GetComponent<ICanBeUsed>().Interaction();
         }
         else if(Input.GetKeyDown(KeyCode.E) && _raycastHit.collider.GetComponent<IInteractive>() != null)
@@ -39,10 +40,19 @@ public class LookRaycast : MonoBehaviour
             _raycastHit.collider.GetComponent<IInteractive>().Interact();
         }
 
-        if (Input.GetKeyDown(KeyCode.F) && _raycastHit.collider.GetComponent<IAmTakeable>() != null 
-                                        && rightHand.childCount ==0)
+        if (Input.GetKeyDown(KeyCode.F) && _raycastHit.collider.GetComponent<IAmTakeable>() != null
+                                        && rightHand.childCount == 0)
         {
             _raycastHit.collider.GetComponent<IAmTakeable>().Take(rightHand);
+        }
+         if(Input.GetKeyDown(KeyCode.Q) && _raycastHit.collider.GetComponent<Computer>() != null)
+        {
+            Debug.Log("pc");
+            _raycastHit.collider.GetComponent<Computer>().Sit(this.gameObject);
+            player.gameObject.transform.GetChild(0).GetComponent<MovementScript>().Ability = false;
+            
+
+
         }
         
     }
