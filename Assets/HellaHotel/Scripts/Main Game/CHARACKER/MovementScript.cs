@@ -27,14 +27,25 @@ internal class MovementScript : MonoBehaviour
     private RaycastHit _raycastHit;
     private float _horizontalInput;
     private float _verticalInput;
+    public bool Ability { get; set; }
     #endregion
     #region Main Code
+    private void Start()
+    {
+        Ability = true;
+    }
     private void Update()
     {
-        Move();
-        Rotate();
-        Gravity();
-        Animator();
+        
+        
+        if (Ability)
+        {
+            Rotate();
+            Move();
+            Gravity();
+            Animator();
+        }
+        
     }
     void Animator()
     { 
